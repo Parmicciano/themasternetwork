@@ -11,7 +11,7 @@ export const nuxtOptions = {
 export const options = {
   vueI18n: {"fallbackLocale":"en","dateTimeFormats":{"en":{"long":{"year":"numeric","month":"short","day":"numeric","weekday":"short"}},"fr":{"long":{"year":"numeric","month":"long","day":"numeric","weekday":"short"}}}},
   vueI18nLoader: false,
-  locales: [{"code":"ru","iso":"ru-RU","file":"ru-RU.js","name":"Русский"},{"code":"fr","iso":"fr-FR","file":"fr-FR.js","name":"Français"},{"code":"ja","iso":"ja-JP","file":"ja-JP.js","name":"日本語"},{"code":"en","iso":"en-US","file":"en-US.js","name":"English"}],
+  locales: [{"code":"en","iso":"en-US","file":"en-US.js","name":"English"}],
   defaultLocale: "en",
   defaultDirection: "ltr",
   routesNameSeparator: "___",
@@ -32,13 +32,10 @@ export const options = {
   beforeLanguageSwitch: () => null,
   onBeforeLanguageSwitch: () => {},
   onLanguageSwitched: () => null,
-  normalizedLocales: [{"code":"ru","iso":"ru-RU","file":"ru-RU.js","name":"Русский"},{"code":"fr","iso":"fr-FR","file":"fr-FR.js","name":"Français"},{"code":"ja","iso":"ja-JP","file":"ja-JP.js","name":"日本語"},{"code":"en","iso":"en-US","file":"en-US.js","name":"English"}],
-  localeCodes: ["ru","fr","ja","en"],
+  normalizedLocales: [{"code":"en","iso":"en-US","file":"en-US.js","name":"English"}],
+  localeCodes: ["en"],
 }
 
 export const localeMessages = {
   'en-US.js': () => Promise.resolve(locale6010b66b),
-  'ru-RU.js': () => import('../..\\node_modules\\@nuxt\\content-theme-docs\\src\\i18n\\ru-RU.js' /* webpackChunkName: "lang-ru-RU.js" */),
-  'fr-FR.js': () => import('../..\\node_modules\\@nuxt\\content-theme-docs\\src\\i18n\\fr-FR.js' /* webpackChunkName: "lang-fr-FR.js" */),
-  'ja-JP.js': () => import('../..\\node_modules\\@nuxt\\content-theme-docs\\src\\i18n\\ja-JP.js' /* webpackChunkName: "lang-ja-JP.js" */),
 }

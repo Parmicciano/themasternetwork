@@ -4,8 +4,8 @@ import { normalizeURL, decode } from 'ufo'
 import { interopDefault } from './utils'
 import scrollBehavior from './router.scrollBehavior.js'
 
-const _3f852be6 = () => interopDefault(import('..\\node_modules\\@nuxt\\content-theme-docs\\src\\pages\\_.vue' /* webpackChunkName: "pages/_" */))
 const _2a00dae4 = () => interopDefault(import('..\\node_modules\\@nuxt\\content-theme-docs\\src\\pages\\releases.vue' /* webpackChunkName: "pages/releases" */))
+const _3f852be6 = () => interopDefault(import('..\\node_modules\\@nuxt\\content-theme-docs\\src\\pages\\_.vue' /* webpackChunkName: "pages/_" */))
 
 const emptyFn = () => {}
 
@@ -19,45 +19,9 @@ export const routerOptions = {
   scrollBehavior,
 
   routes: [{
-    path: "/fr",
-    component: _3f852be6,
-    name: "index___fr"
-  }, {
-    path: "/ja",
-    component: _3f852be6,
-    name: "index___ja"
-  }, {
     path: "/releases",
     component: _2a00dae4,
     name: "releases___en"
-  }, {
-    path: "/ru",
-    component: _3f852be6,
-    name: "index___ru"
-  }, {
-    path: "/fr/releases",
-    component: _2a00dae4,
-    name: "releases___fr"
-  }, {
-    path: "/ja/releases",
-    component: _2a00dae4,
-    name: "releases___ja"
-  }, {
-    path: "/ru/releases",
-    component: _2a00dae4,
-    name: "releases___ru"
-  }, {
-    path: "/ja/*",
-    component: _3f852be6,
-    name: "all___ja"
-  }, {
-    path: "/fr/*",
-    component: _3f852be6,
-    name: "all___fr"
-  }, {
-    path: "/ru/*",
-    component: _3f852be6,
-    name: "all___ru"
   }, {
     path: "/",
     component: _3f852be6,
