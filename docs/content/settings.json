@@ -1,0 +1,11 @@
+{
+  "title": "The masternetwork",
+  "url": "https://content.nuxtjs.org",
+  "logo": {
+    "light": "/logo-light.png",
+    "dark": "/logo-dark.png"
+  },
+  "github": "Parmicciano/themasternetwork",
+  "twitter": "Parmicciano",
+  "defaultBranch": "main"
+}
