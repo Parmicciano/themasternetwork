@@ -1,7 +1,7 @@
 import Plausible from 'plausible-tracker';
 const PlausiblePlugin = (context, inject) => {
     var _a;
-    const optionsDomain = 'content.nuxtjs.org';
+    const optionsDomain = '';
     const optionsHashMode = '';
     const optionsTrackLocalhost = '';
     const optionsApiHost = '';
