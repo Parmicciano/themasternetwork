@@ -6,6 +6,7 @@ You can directly use them in pages and other components without the need to impo
 
 **Tip:** If a component is conditionally rendered with `v-if` and is big, it is better to use `Lazy` or `lazy-` prefix to lazy load.
 
+- `<AppColorSwitcher>` | `<app-color-switcher>` (components/global/app/AppColorSwitcher.vue)
 - `<Alert>` | `<alert>` (components/global/base/Alert.vue)
 - `<Badge>` | `<badge>` (components/global/base/Badge.vue)
 - `<CodeBlock>` | `<code-block>` (components/global/base/CodeBlock.vue)
@@ -33,7 +34,6 @@ You can directly use them in pages and other components without the need to impo
 - `<IconTwitter>` | `<icon-twitter>` (components/global/icons/IconTwitter.vue)
 - `<IconX>` | `<icon-x>` (components/global/icons/IconX.vue)
 - `<IconXCircle>` | `<icon-x-circle>` (components/global/icons/IconXCircle.vue)
-- `<AppColorSwitcher>` | `<app-color-switcher>` (components/global/app/AppColorSwitcher.vue)
 - `<AppCopyButton>` | `<app-copy-button>` (components/app/AppCopyButton.vue)
 - `<AppDropdown>` | `<app-dropdown>` (components/app/AppDropdown.vue)
 - `<AppFooter>` | `<app-footer>` (components/app/AppFooter.vue)

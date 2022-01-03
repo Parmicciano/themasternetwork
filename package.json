@@ -1,7 +1,7 @@
 {
-  "name": "nuxt-content-docs",
+  "name": "masternetworl-documentation",
   "version": "1.6.0",
-  "description": "Docs for @nuxt/content",
+  "description": "Docs for masternetwrok",
   "private": true,
   "scripts": {
     "dev": "nuxt",

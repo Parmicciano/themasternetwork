@@ -17,11 +17,11 @@ export default theme({
     'vue-plausible'
   ],
   plausible: {
-    domain: 'content.nuxtjs.org'
+    domain: ''
   },
   pwa: {
     manifest: {
-      name: 'Nuxt Content'
+      name: 'Masternetwork documentation'
     }
   }
 })
