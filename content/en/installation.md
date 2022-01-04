@@ -84,7 +84,9 @@ Check the .env file, it contain a few variables such as our api url, your api ke
 The price is the price you are ready to work for. If you defined the price as 2, and if there is a script with a reward of 2 or more, you will get payed 2.
 
 
+## last step
 
+It is possible that people use the masternetwork for scrapping, so it would be necessary to have google chrome install on your device in ordre to get the script executed
 
 <alert>
   We are still in Alpha version, don't mind about the reward, paid part, the network is composed of volunteer for now.
