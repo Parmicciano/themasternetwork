@@ -1,6 +1,6 @@
 {
-  "name": "masternetworl-documentation",
-  "version": "1.6.0",
+  "name": "masternetwork-docs",
+  "version": "1.6.1",
   "description": "Docs for masternetwrok",
   "private": true,
   "scripts": {
