@@ -19,6 +19,7 @@ export default theme({
   plausible: {
     domain: ''
   },
+  target: 'static',
   pwa: {
     manifest: {
       name: 'Masternetwork documentation'
