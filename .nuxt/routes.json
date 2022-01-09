@@ -2,22 +2,19 @@
   {
     "name": "releases___en",
     "path": "/releases",
-    "component": "C:\\\\Users\\\\thoma\\\\OneDrive\\\\Documents\\\\remote python\\\\doc\\\\node_modules\\\\@nuxt\\\\content-theme-docs\\\\src\\\\pages\\\\releases.vue",
-    "chunkName": "pages/releases",
-    "_name": "_2a00dae4"
+    "component": "C:\\\\Users\\\\thoma\\\\OneDrive\\\\Documents\\\\remote python\\\\doc\\\\node_modules\\\\@nuxt\\\\THEME_CHANGE_MASTERNETWORK\\\\src\\\\pages\\\\releases.vue",
+    "chunkName": "pages/releases"
   },
   {
     "name": "index___en",
     "path": "/",
-    "component": "C:\\\\Users\\\\thoma\\\\OneDrive\\\\Documents\\\\remote python\\\\doc\\\\node_modules\\\\@nuxt\\\\content-theme-docs\\\\src\\\\pages\\\\_.vue",
-    "chunkName": "pages/_",
-    "_name": "_3f852be6"
+    "component": "C:\\\\Users\\\\thoma\\\\OneDrive\\\\Documents\\\\remote python\\\\doc\\\\node_modules\\\\@nuxt\\\\THEME_CHANGE_MASTERNETWORK\\\\src\\\\pages\\\\_.vue",
+    "chunkName": "pages/_"
   },
   {
     "name": "all___en",
     "path": "/*",
-    "component": "C:\\\\Users\\\\thoma\\\\OneDrive\\\\Documents\\\\remote python\\\\doc\\\\node_modules\\\\@nuxt\\\\content-theme-docs\\\\src\\\\pages\\\\_.vue",
-    "chunkName": "pages/_",
-    "_name": "_3f852be6"
+    "component": "C:\\\\Users\\\\thoma\\\\OneDrive\\\\Documents\\\\remote python\\\\doc\\\\node_modules\\\\@nuxt\\\\THEME_CHANGE_MASTERNETWORK\\\\src\\\\pages\\\\_.vue",
+    "chunkName": "pages/_"
   }
 ]

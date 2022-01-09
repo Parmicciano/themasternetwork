@@ -8,7 +8,7 @@ const VUEX_PROPERTIES = ['state', 'getters', 'actions', 'mutations']
 let store = {};
 
 (function updateModules () {
-  store = normalizeRoot(require('..\\node_modules\\@nuxt\\content-theme-docs\\src\\store\\index.js'), 'store/index.js')
+  store = normalizeRoot(require('..\\node_modules\\@nuxt\\THEME_CHANGE_MASTERNETWORK\\src\\store\\index.js'), 'store/index.js')
 
   // If store is an exported method = classic mode (deprecated)
 
@@ -19,15 +19,15 @@ let store = {};
   // Enforce store modules
   store.modules = store.modules || {}
 
-  resolveStoreModules(require('..\\node_modules\\@nuxt\\content-theme-docs\\src\\store\\menu.js'), 'menu.js')
+  resolveStoreModules(require('..\\node_modules\\@nuxt\\THEME_CHANGE_MASTERNETWORK\\src\\store\\menu.js'), 'menu.js')
 
   // If the environment supports hot reloading...
 
   if (process.client && module.hot) {
     // Whenever any Vuex module is updated...
     module.hot.accept([
-      '..\\node_modules\\@nuxt\\content-theme-docs\\src\\store\\index.js',
-      '..\\node_modules\\@nuxt\\content-theme-docs\\src\\store\\menu.js',
+      '..\\node_modules\\@nuxt\\THEME_CHANGE_MASTERNETWORK\\src\\store\\index.js',
+      '..\\node_modules\\@nuxt\\THEME_CHANGE_MASTERNETWORK\\src\\store\\menu.js',
     ], () => {
       // Update `root.modules` with the latest definitions.
       updateModules()

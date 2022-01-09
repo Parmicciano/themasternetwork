@@ -5,7 +5,7 @@ import ClientOnly from 'vue-client-only'
 import NoSsr from 'vue-no-ssr'
 import { createRouter } from './router.js'
 import NuxtChild from './components/nuxt-child.js'
-import NuxtError from '..\\node_modules\\@nuxt\\content-theme-docs\\src\\layouts\\error.vue'
+import NuxtError from '..\\node_modules\\@nuxt\\THEME_CHANGE_MASTERNETWORK\\src\\layouts\\error.vue'
 import Nuxt from './components/nuxt.js'
 import App from './App.js'
 import { setContext, getLocation, getRouteData, normalizeError } from './utils'
@@ -25,11 +25,11 @@ import nuxt_plugin_metaplugin_5a90acc4 from 'nuxt_plugin_metaplugin_5a90acc4' //
 import nuxt_plugin_iconplugin_514161dc from 'nuxt_plugin_iconplugin_514161dc' // Source: .\\pwa\\icon.plugin.js (mode: 'all')
 import nuxt_plugin_pluginserver_57d3fab2 from 'nuxt_plugin_pluginserver_57d3fab2' // Source: .\\color-mode\\plugin.server.js (mode: 'server')
 import nuxt_plugin_pluginclient_6e5c911f from 'nuxt_plugin_pluginclient_6e5c911f' // Source: .\\color-mode\\plugin.client.js (mode: 'client')
-import nuxt_plugin_markdown_667a7ee3 from 'nuxt_plugin_markdown_667a7ee3' // Source: ..\\node_modules\\@nuxt\\content-theme-docs\\src\\plugins\\markdown (mode: 'all')
-import nuxt_plugin_init_9269fdf8 from 'nuxt_plugin_init_9269fdf8' // Source: ..\\node_modules\\@nuxt\\content-theme-docs\\src\\plugins\\init (mode: 'all')
-import nuxt_plugin_i18n_6bd029b2 from 'nuxt_plugin_i18n_6bd029b2' // Source: ..\\node_modules\\@nuxt\\content-theme-docs\\src\\plugins\\i18n.client (mode: 'client')
-import nuxt_plugin_vuescrollactive_41e62aee from 'nuxt_plugin_vuescrollactive_41e62aee' // Source: ..\\node_modules\\@nuxt\\content-theme-docs\\src\\plugins\\vue-scrollactive (mode: 'all')
-import nuxt_plugin_menu_4ba55674 from 'nuxt_plugin_menu_4ba55674' // Source: ..\\node_modules\\@nuxt\\content-theme-docs\\src\\plugins\\menu.client (mode: 'client')
+import nuxt_plugin_markdown_667a7ee3 from 'nuxt_plugin_markdown_667a7ee3' // Source: ..\\node_modules\\@nuxt\\THEME_CHANGE_MASTERNETWORK\\src\\plugins\\markdown (mode: 'all')
+import nuxt_plugin_init_9269fdf8 from 'nuxt_plugin_init_9269fdf8' // Source: ..\\node_modules\\@nuxt\\THEME_CHANGE_MASTERNETWORK\\src\\plugins\\init (mode: 'all')
+import nuxt_plugin_i18n_6bd029b2 from 'nuxt_plugin_i18n_6bd029b2' // Source: ..\\node_modules\\@nuxt\\THEME_CHANGE_MASTERNETWORK\\src\\plugins\\i18n.client (mode: 'client')
+import nuxt_plugin_vuescrollactive_41e62aee from 'nuxt_plugin_vuescrollactive_41e62aee' // Source: ..\\node_modules\\@nuxt\\THEME_CHANGE_MASTERNETWORK\\src\\plugins\\vue-scrollactive (mode: 'all')
+import nuxt_plugin_menu_4ba55674 from 'nuxt_plugin_menu_4ba55674' // Source: ..\\node_modules\\@nuxt\\THEME_CHANGE_MASTERNETWORK\\src\\plugins\\menu.client (mode: 'client')
 
 // Component: <ClientOnly>
 Vue.component(ClientOnly.name, ClientOnly)

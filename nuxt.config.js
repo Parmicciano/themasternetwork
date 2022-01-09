@@ -1,4 +1,4 @@
-import theme from '@nuxt/content-theme-docs'
+import theme from '@nuxt/THEME_CHANGE_MASTERNETWORK'
 
 export default theme({
   docs: {

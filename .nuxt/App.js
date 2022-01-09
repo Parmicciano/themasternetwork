@@ -2,20 +2,20 @@ import Vue from 'vue'
 import { decode, parsePath, withoutBase, withoutTrailingSlash, normalizeURL } from 'ufo'
 
 import { getMatchedComponentsInstances, getChildrenComponentInstancesUsingFetch, promisify, globalHandleError, urlJoin, sanitizeComponent } from './utils'
-import NuxtError from '..\\node_modules\\@nuxt\\content-theme-docs\\src\\layouts\\error.vue'
+import NuxtError from '..\\node_modules\\@nuxt\\THEME_CHANGE_MASTERNETWORK\\src\\layouts\\error.vue'
 import NuxtLoading from './components/nuxt-loading.vue'
 import NuxtBuildIndicator from './components/nuxt-build-indicator'
 
 import '..\\node_modules\\@nuxtjs\\tailwindcss\\lib\\files\\tailwind.css'
 
-import '..\\node_modules\\@nuxt\\content-theme-docs\\src\\assets\\css\\main.css'
+import '..\\node_modules\\@nuxt\\THEME_CHANGE_MASTERNETWORK\\src\\assets\\css\\main.css'
 
-import '..\\node_modules\\@nuxt\\content-theme-docs\\src\\assets\\css\\main.dev.css'
+import '..\\node_modules\\@nuxt\\THEME_CHANGE_MASTERNETWORK\\src\\assets\\css\\main.dev.css'
 
 import '..\\node_modules\\prism-themes\\themes\\prism-material-oceanic.css'
 
-import _6f6c098b from '..\\node_modules\\@nuxt\\content-theme-docs\\src\\layouts\\default.vue'
-import _ee708084 from '..\\node_modules\\@nuxt\\content-theme-docs\\src\\layouts\\single.vue'
+import _6f6c098b from '..\\node_modules\\@nuxt\\THEME_CHANGE_MASTERNETWORK\\src\\layouts\\default.vue'
+import _ee708084 from '..\\node_modules\\@nuxt\\THEME_CHANGE_MASTERNETWORK\\src\\layouts\\single.vue'
 
 const layouts = { "_default": sanitizeComponent(_6f6c098b),"_single": sanitizeComponent(_ee708084) }
 
