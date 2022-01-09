@@ -117,9 +117,9 @@
     "description": "Auto imported from components/app/AppToc.vue"
   },
   "Showcases": {
-    "description": "Auto imported from ../../../../components/global/Showcases.vue"
+    "description": "Auto imported from ../../../components/global/Showcases.vue"
   },
   "ExampleMultiselect": {
-    "description": "Auto imported from ../../../../components/global/example/Multiselect.vue"
+    "description": "Auto imported from ../../../components/global/example/Multiselect.vue"
   }
 }

@@ -2,19 +2,22 @@
   {
     "name": "releases___en",
     "path": "/releases",
-    "component": "C:\\\\Users\\\\thoma\\\\OneDrive\\\\Documents\\\\remote python\\\\doc\\\\node_modules\\\\@nuxt\\\\THEME_CHANGE_MASTERNETWORK\\\\src\\\\pages\\\\releases.vue",
-    "chunkName": "pages/releases"
+    "component": "C:\\\\Users\\\\thoma\\\\OneDrive\\\\Documents\\\\remote python\\\\doc\\\\node_modules\\\\THEME_CHANGE_MASTERNETWORK\\\\src\\\\pages\\\\releases.vue",
+    "chunkName": "pages/releases",
+    "_name": "_91bba5fa"
   },
   {
     "name": "index___en",
     "path": "/",
-    "component": "C:\\\\Users\\\\thoma\\\\OneDrive\\\\Documents\\\\remote python\\\\doc\\\\node_modules\\\\@nuxt\\\\THEME_CHANGE_MASTERNETWORK\\\\src\\\\pages\\\\_.vue",
-    "chunkName": "pages/_"
+    "component": "C:\\\\Users\\\\thoma\\\\OneDrive\\\\Documents\\\\remote python\\\\doc\\\\node_modules\\\\THEME_CHANGE_MASTERNETWORK\\\\src\\\\pages\\\\_.vue",
+    "chunkName": "pages/_",
+    "_name": "_6f6e7938"
   },
   {
     "name": "all___en",
     "path": "/*",
-    "component": "C:\\\\Users\\\\thoma\\\\OneDrive\\\\Documents\\\\remote python\\\\doc\\\\node_modules\\\\@nuxt\\\\THEME_CHANGE_MASTERNETWORK\\\\src\\\\pages\\\\_.vue",
-    "chunkName": "pages/_"
+    "component": "C:\\\\Users\\\\thoma\\\\OneDrive\\\\Documents\\\\remote python\\\\doc\\\\node_modules\\\\THEME_CHANGE_MASTERNETWORK\\\\src\\\\pages\\\\_.vue",
+    "chunkName": "pages/_",
+    "_name": "_6f6e7938"
   }
 ]

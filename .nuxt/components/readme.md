@@ -45,5 +45,5 @@ You can directly use them in pages and other components without the need to impo
 - `<AppSearch>` | `<app-search>` (components/app/AppSearch.vue)
 - `<AppSearchAlgolia>` | `<app-search-algolia>` (components/app/AppSearchAlgolia.vue)
 - `<AppToc>` | `<app-toc>` (components/app/AppToc.vue)
-- `<Showcases>` | `<showcases>` (../../../../components/global/Showcases.vue)
-- `<ExampleMultiselect>` | `<example-multiselect>` (../../../../components/global/example/Multiselect.vue)
+- `<Showcases>` | `<showcases>` (../../../components/global/Showcases.vue)
+- `<ExampleMultiselect>` | `<example-multiselect>` (../../../components/global/example/Multiselect.vue)

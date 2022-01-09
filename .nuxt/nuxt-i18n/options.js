@@ -1,4 +1,4 @@
-import locale6010b66b from '../..\\node_modules\\@nuxt\\THEME_CHANGE_MASTERNETWORK\\src\\i18n\\en-US.js'
+import locale6010b66b from '../..\\node_modules\\THEME_CHANGE_MASTERNETWORK\\src\\i18n\\en-US.js'
 
 export const Constants = {
   COMPONENT_OPTIONS_KEY: "nuxtI18n",
@@ -19,7 +19,7 @@ export const options = {
   sortRoutes: true,
   strategy: "prefix_except_default",
   lazy: true,
-  langDir: "C:\\Users\\thoma\\OneDrive\\Documents\\remote python\\doc\\node_modules\\@nuxt\\THEME_CHANGE_MASTERNETWORK\\src\\i18n",
+  langDir: "C:\\Users\\thoma\\OneDrive\\Documents\\remote python\\doc\\node_modules\\THEME_CHANGE_MASTERNETWORK\\src\\i18n",
   rootRedirect: null,
   detectBrowserLanguage: {"alwaysRedirect":false,"cookieCrossOrigin":false,"cookieDomain":null,"cookieKey":"i18n_redirected","cookieSecure":false,"fallbackLocale":"","onlyOnNoPrefix":false,"onlyOnRoot":false,"useCookie":true},
   differentDomains: false,
