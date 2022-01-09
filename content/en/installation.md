@@ -7,7 +7,7 @@ position: 2
 
 ## Create a new windows account
 Running a python script can be dangerous if you don't know what it contains. To prevent malicious behaviour, please create a new restrictred account on your computer. However, if you don't care about the device security or if the computer runs for crypto currency too, you can skip this step.
-<img src="myaccount.png" style ="border-radius: 5px 2px;">
+<img src="/myaccount.png" style ="border-radius: 5px 2px;">
 ## Create files or download files
 <code-group>
   <code-block label="main.py" active>
