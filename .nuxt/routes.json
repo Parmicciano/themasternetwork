@@ -2,22 +2,22 @@
   {
     "name": "releases___en",
     "path": "/releases",
-    "component": "C:\\\\Users\\\\thoma\\\\OneDrive\\\\Documents\\\\remote python\\\\doc\\\\node_modules\\\\@nuxt\\\\content-theme-docs\\\\src\\\\pages\\\\releases.vue",
+    "component": "C:\\\\Users\\\\thoma\\\\OneDrive\\\\Documents\\\\remote python\\\\docs\\\\node_modules\\\\@nuxt\\\\content-theme-doc\\\\src\\\\pages\\\\releases.vue",
     "chunkName": "pages/releases",
-    "_name": "_2a00dae4"
+    "_name": "_480dd588"
   },
   {
     "name": "index___en",
     "path": "/",
-    "component": "C:\\\\Users\\\\thoma\\\\OneDrive\\\\Documents\\\\remote python\\\\doc\\\\node_modules\\\\@nuxt\\\\content-theme-docs\\\\src\\\\pages\\\\_.vue",
+    "component": "C:\\\\Users\\\\thoma\\\\OneDrive\\\\Documents\\\\remote python\\\\docs\\\\node_modules\\\\@nuxt\\\\content-theme-doc\\\\src\\\\pages\\\\_.vue",
     "chunkName": "pages/_",
-    "_name": "_3f852be6"
+    "_name": "_47796f1f"
   },
   {
     "name": "all___en",
     "path": "/*",
-    "component": "C:\\\\Users\\\\thoma\\\\OneDrive\\\\Documents\\\\remote python\\\\doc\\\\node_modules\\\\@nuxt\\\\content-theme-docs\\\\src\\\\pages\\\\_.vue",
+    "component": "C:\\\\Users\\\\thoma\\\\OneDrive\\\\Documents\\\\remote python\\\\docs\\\\node_modules\\\\@nuxt\\\\content-theme-doc\\\\src\\\\pages\\\\_.vue",
     "chunkName": "pages/_",
-    "_name": "_3f852be6"
+    "_name": "_47796f1f"
   }
 ]
