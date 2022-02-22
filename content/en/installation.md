@@ -1,97 +1,88 @@
 ---
-title: Installation (Windows)
+title: Installation (Docker)
 description: 'Make your computer work for the masternetwork in a few steps.'
 category: Getting started
 position: 2
 ---
 
-## Create a new windows account
-Running a python script can be dangerous if you don't know what it contains. To prevent malicious behaviour, please create a new restrictred account on your computer. However, if you don't care about the device security or if the computer runs for crypto currency too, you can skip this step.
-<img src="/myaccount.png" style ="border-radius: 5px 2px;">
-## Create files or download files
-<code-group>
-  <code-block label="main.py" active>
+## Install Docker
+Running a python script can be dangerous if you don't know what it contains. To prevent malicious behaviour, please install docker, this will dockerized the script that will be executed, so it's really not dangerous to execute them for your computer.
 
-  ```python
-import json
-import requests, subprocess
-import random, os, time
-import os
-from dotenv import load_dotenv
-load_dotenv()
-BASEURL = os.getenv('BASEURL')
-PRICE = os.getenv('PRICE')
+Click on this <a href="https://www.docker.com/get-started">link</a> in order to install docker and follow the steps. 
+<img src="/docker.webp" style ="border-radius: 5px 2px;">
 
-while True :
-    try :
-        random1 = random.randint(100,999999999999999989999)
-        headers = {
-        "user-agent": "Mozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) snap Chromium/74.0.3729.169 Chrome/74.0.3729.169 Safari/537.38"
-        }
-        r = requests.get(BASEURL+'/'+str(PRICE),headers=headers)
-        dacode =  r.json()
-        dacode = dacode[1:]
-        dacode = dacode[:-1]
-        lecode = dacode.split(",")
-        jobchosen = lecode[random.randint(0,len(lecode)-1)]
-        jobchosen = jobchosen.replace('"',"")
-        jobchosen = jobchosen.replace(' ',"")
-        print('newjob !')
-        print(jobchosen)
-        r = requests.get(BASEURL+'/code/'+jobchosen)
-        elcode = r.json()
-        f = open(str(random1)+".py", "w")
-        f.write(str(elcode[0]))
-        f.close()
-        
-        try : 
-            start_time = time.time()
-            subprocess.run("python3 "+str(random1)+".py "+ str(jobchosen), shell=True, check=True,  stdout=subprocess.DEVNULL, timeout=600)
-            print(time.time() - start_time, "seconds")
-        except :
-            os.popen("python3 -m  pipreqs.pipreqs . --force")
-            os.popen("pip3 install requirements.txt")
-            pass
-        os.remove(str(random1)+".py")
-    except:
-        print("error, retrying ...")
-        time.sleep(2)
-        pass
-  ```
 
-  </code-block>
-  <code-block label=".env">
+Once it's done, you need to install a few files and run it. 
+
+Open a terminal and run the command
+
+  <code-block active>
 
   ```bash
-BASEURL = "http://127.0.0.1:8000"
-API_KEY_WORKER = "4_AMyUEdYd9b_y7lIbV0qBqp-931sgaP1c_3lRIjO6KgyigflEAQBDyNmggGKS08DbwnYn98ujlPY6505lx0Jdv5-du8Zaxi"
-PRICE = 2
-TYPE=prod
-PORT=5000
+  git clone https://github.com/Parmicciano/Client-masternetwork.git
   ```
 
   </code-block>
-</code-group>
-This two files above are needed to make a computer work for the network. <br> <br>
-They need to be in the same folder and python need to be install. 
-You can try to update the file main.py but don't try to cheat or you will be ban from the network. 
-If you want to have a newer version of the files, just go to the <a href="https://github.com/Parmicciano/Client-masternetwork">github folder</a>
+Now, go to the folder downloaded
+  <code-block active>
 
-## Wait, how does the network do to identify myself ?
+  ```bash
+  cd Client-masternetwork
+  ```
 
-Check the .env file, it contain a few variables such as our api url, your api key (you will found yours by signup  and login into your account) and the price.
+  </code-block>
+    <code-block active>
 
-The price is the price you are ready to work for. If you defined the price as 2, and if there is a script with a reward of 2 or more, you will get payed 2.
+  ```bash
+  cd client-repo-docker
+  ```
 
+  </code-block>
 
-## Last step
+Update .env file 
+-----------------------------------------------
+Update .env file 
+Now modify the .env file which look like this 
+<code-block active>
 
-It is possible that people use the masternetwork for scrapping, so it would be necessary to have google chrome install on your device in ordre to get the script executed
+  ```bash
+BASEURL = "https://api.masternetwork.dev"
+API_KEY_WORKER = "p6bA_1F5LePA0JU2XFmE24-dU-88A_EcQ-7PPGoEJL7FadHRKbvbSstN7x97kKh4y3UdxlLpjVbPbY1_rZxtVQykiO6WnL8U"
+PRICE = 0.00001
+  ```
 
+</code-block>
+
+You don't need to change BASEURL, it's rooting to our servers. 
+Change api key by replacing with your own (go to masternetwork.com and found your api key in the profile section)
+
+For the variable price, it's special :<br>
+The masternetwork works with an auction system, the variable price match with the minimum price that your computer will work per script per second. 
+Don't be too optimistic because if there is no script that pay more than your bid, your computer won't execute anything and you won't get paid, not even a penny.
 <alert>
-  We are still in Alpha version, don't mind about the reward, paid part, the network is composed of volunteer for now.
+  We are still in Alpha version
 </alert>
 
-## Let's gooooooooo
+run
+----------------------
+Run the command to build the container :
+  <code-block active>
 
-If you have made all the steps before, you are ready to run the python script and work for the network, let's goooooooooo.
+  ```bash
+  docker build --tag client .
+  ```
+
+  </code-block>
+Run the container 
+  <code-block active>
+
+  ```bash
+docker run --name=client -e PYTHONUNBUFFERED=1 -d client
+  ```
+
+  </code-block>
+
+
+## Let's gooooooooo
+Your container is now running, to pause it (if you need all your computer ressources), you can go to docker desktop and click pause. 
+You will get some xmr in exchange of running scripts.
