@@ -27,7 +27,7 @@ The monero collected will be credited in your account, then you will be able to 
 <p>
 Yeah ! We may have scalability issue in the future but for now it is working well !
 <br>
-Join our <a rhef="https://discord.gg/xbwUHXfgtu">Discord</a> to talk about technical issues and what we can improve for the masternetwork.
+Join our <a href="https://discord.gg/NVvvkXMbAB">Discord</a> to talk about technical issues and what we can improve for the masternetwork.
 </p>
 
 

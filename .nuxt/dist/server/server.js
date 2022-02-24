@@ -4212,7 +4212,6 @@ __webpack_require__.r(__webpack_exports__);
 // NAMESPACE OBJECT: ./.nuxt/components/index.js
 var components_namespaceObject = {};
 __webpack_require__.r(components_namespaceObject);
-__webpack_require__.d(components_namespaceObject, "AppColorSwitcher", function() { return AppColorSwitcher; });
 __webpack_require__.d(components_namespaceObject, "Alert", function() { return Alert; });
 __webpack_require__.d(components_namespaceObject, "Badge", function() { return Badge; });
 __webpack_require__.d(components_namespaceObject, "CodeBlock", function() { return CodeBlock; });
@@ -4240,6 +4239,7 @@ __webpack_require__.d(components_namespaceObject, "IconTranslate", function() { 
 __webpack_require__.d(components_namespaceObject, "IconTwitter", function() { return IconTwitter; });
 __webpack_require__.d(components_namespaceObject, "IconX", function() { return IconX; });
 __webpack_require__.d(components_namespaceObject, "IconXCircle", function() { return IconXCircle; });
+__webpack_require__.d(components_namespaceObject, "AppColorSwitcher", function() { return AppColorSwitcher; });
 __webpack_require__.d(components_namespaceObject, "AppCopyButton", function() { return AppCopyButton; });
 __webpack_require__.d(components_namespaceObject, "AppDropdown", function() { return AppDropdown; });
 __webpack_require__.d(components_namespaceObject, "AppFooter", function() { return AppFooter; });
@@ -6159,7 +6159,6 @@ function mergeProperty(storeModule, moduleData, property) {
   }
 }
 // CONCATENATED MODULE: ./.nuxt/components/index.js
-const AppColorSwitcher = () => Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 24)).then(c => wrapFunctional(c.default || c));
 const Alert = () => __webpack_require__.e(/* import() | components/alert */ 1).then(__webpack_require__.bind(null, 96)).then(c => wrapFunctional(c.default || c));
 const Badge = () => __webpack_require__.e(/* import() | components/badge */ 6).then(__webpack_require__.bind(null, 79)).then(c => wrapFunctional(c.default || c));
 const CodeBlock = () => __webpack_require__.e(/* import() | components/code-block */ 9).then(__webpack_require__.bind(null, 97)).then(c => wrapFunctional(c.default || c));
@@ -6187,6 +6186,7 @@ const IconTranslate = () => Promise.resolve(/* import() */).then(__webpack_requi
 const IconTwitter = () => Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 22)).then(c => wrapFunctional(c.default || c));
 const IconX = () => Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 56)).then(c => wrapFunctional(c.default || c));
 const IconXCircle = () => __webpack_require__.e(/* import() | components/icon-x-circle */ 22).then(__webpack_require__.bind(null, 110)).then(c => wrapFunctional(c.default || c));
+const AppColorSwitcher = () => Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 24)).then(c => wrapFunctional(c.default || c));
 const AppCopyButton = () => __webpack_require__.e(/* import() | components/app-copy-button */ 2).then(__webpack_require__.bind(null, 76)).then(c => wrapFunctional(c.default || c));
 const AppDropdown = () => Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 51)).then(c => wrapFunctional(c.default || c));
 const AppFooter = () => Promise.resolve(/* import() */).then(__webpack_require__.bind(null, 21)).then(c => wrapFunctional(c.default || c));
