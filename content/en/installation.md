@@ -1,8 +1,8 @@
 ---
 title: Installation
 description: 'Create a node'
-category: Getting started
-position: 2
+category: Node
+position: 3
 ---
 
 ## Install the client 
@@ -29,8 +29,7 @@ Now, move to the folder downloaded
 
 Update node_installer.sh  
 -----------------------------------------------
-Update node_installer.sh file 
-Now modify the .env file which look like this 
+Update node_installer.sh file to specify options. Don't forget the apikey, you will find it by creating an <a href="https://masternetwork.dev">account</a>. Otherwirse you will not be paid.
 <code-block active>
 
   ```bash
