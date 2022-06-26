@@ -32,7 +32,7 @@ var component = Object(componentNormalizer["a" /* default */])(
   false,
   null,
   null,
-  "2d2b8013"
+  "32728091"
   
 )
 

@@ -19,7 +19,7 @@ export const options = {
   sortRoutes: true,
   strategy: "prefix_except_default",
   lazy: true,
-  langDir: "C:\\Users\\thoma\\OneDrive\\Documents\\remote python\\docs\\node_modules\\@nuxt\\content-theme-doc\\src\\i18n",
+  langDir: "C:\\Users\\thoma\\Documents\\remote python\\docs\\node_modules\\@nuxt\\content-theme-doc\\src\\i18n",
   rootRedirect: null,
   detectBrowserLanguage: {"alwaysRedirect":false,"cookieCrossOrigin":false,"cookieDomain":null,"cookieKey":"i18n_redirected","cookieSecure":false,"fallbackLocale":"","onlyOnNoPrefix":false,"onlyOnRoot":false,"useCookie":true},
   differentDomains: false,
