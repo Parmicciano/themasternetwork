@@ -13,31 +13,23 @@ You must be under ubuntu in order to start a node.
   <code-block active>
 
   ```bash
-  git clone https://github.com/Masternetworks/public_masternetwork_vps
+  git clone https://github.com/Masternetworks/masternetwork_client
   ```
 
-  </code-block>
-Now, move to the folder downloaded
-  <code-block active>
 
-  ```bash
-  cd public_masternetwork_vps
-  ```
-
-  </code-block>
-
-
-Update node_installer.sh  
+Update your crontab ! 
 -----------------------------------------------
-Update node_installer.sh file to specify options. Don't forget the apikey, you will find it by creating an <a href="https://masternetwork.dev">account</a>. Otherwirse you will not be paid.
+modify your crontab to run the script periodically and to update it.<br>
+
+<br>
+Don't forget the apikey, you will find it by creating an <a href="https://masternetwork.dev">account</a>. Specify different options in the crontab to limit the resources you want to allocate for the virtual machines. Otherwirse you will not be paid.  Replace MYPATH with the path of the repo clone. 
 <code-block active>
 
   ```bash
-./86_linux -apikey MYKEYFROMmasternetwork.api -ram 8000 -vcpus 2 -storage 85 -nodename Sunlight
+* * * * * cd MYPATH && git pull && ./86_linux -apikey MYKEYFROMmasternetwork.api -ram 8000 -vcpus 2 -storage 85 -nodename Sunlight
   ```
 
 </code-block>
-Then, run the shell file. 
 This will create a node with 8000 mb of ram, 2 vcpus allocated, 85 gb of storage.
 <alert>
 Version=Beta => Many bugs will occur
