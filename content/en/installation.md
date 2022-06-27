@@ -17,11 +17,10 @@ You must be under ubuntu in order to start a node.
   ```
 
 
-Update your crontab ! 
+Update your crontab 
 -----------------------------------------------
-modify your crontab to run the script periodically and to update it.<br>
+Modify your crontab to run the script periodically and to update it.<br>
 
-<br>
 Don't forget the apikey, you will find it by creating an <a href="https://masternetwork.dev">account</a>. Specify different options in the crontab to limit the resources you want to allocate for the virtual machines. Otherwirse you will not be paid.  Replace MYPATH with the path of the repo clone. 
 <code-block active>
 
