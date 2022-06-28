@@ -1,4 +1,7 @@
 {
+  "AppColorSwitcher": {
+    "description": "Auto imported from components/global/app/AppColorSwitcher.vue"
+  },
   "BuiltWithNuxtDark": {
     "description": "Auto imported from components/global/icons/BuiltWithNuxtDark.vue"
   },
@@ -61,9 +64,6 @@
   },
   "IconXCircle": {
     "description": "Auto imported from components/global/icons/IconXCircle.vue"
-  },
-  "AppColorSwitcher": {
-    "description": "Auto imported from components/global/app/AppColorSwitcher.vue"
   },
   "Alert": {
     "description": "Auto imported from components/global/base/Alert.vue"
