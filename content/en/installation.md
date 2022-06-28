@@ -24,9 +24,9 @@ You must be under<b> ubuntu / debian</b> in order to start a node.
   ```
 
 
-Update your crontab 
+Start the node
 -----------------------------------------------
-Modify your crontab to run the script periodically and to update it.<br>
+Run this command to start a node.<br>
 
 Don't forget the apikey, you will find it by creating an <a href="https://masternetwork.dev">account</a>. Specify different options in the crontab to limit the resources you want to allocate for the virtual machines. Otherwirse you will not be paid.   
 </code-block>
