@@ -15,7 +15,7 @@ In order to download the client, you must install git and cron if those packages
 
 You must be under<b> ubuntu / debian</b> in order to start a node.
 
-
+Replace "parmicciano" with your username
   <code-block active>
 
   ```bash
@@ -29,38 +29,69 @@ Start the node
 Run this command to start a node.<br>
 
 Don't forget the apikey, you will find it by creating an <a href="https://masternetwork.dev">account</a>. Specify different options in the crontab to limit the resources you want to allocate for the virtual machines. Otherwirse you will not be paid.   
-</code-block>
-Test once that it work properly 
+
+
 <code-block active>
 
   ```bash
-cd ~/mstclient && sudo git pull && sudo ./amd64_linux -apikey MYKEYFROMmasternetwork.api -ram 8000 -vcpus 2 -storage 85 -name Sunlight
+sudo nano /etc/systemd/system/mst.service
   ```
 
 </code-block>
-If you don't have any error, you can quit, go on. Else, try to relaunch the script and contact us on discord.<br>
+<br><br>
+<code-block active>
+
+  ```bash
+[Unit]
+Description=Masternetwork
+After=network.target
+StartLimitIntervalSec=0
+[Service]
+Type=simple
+ExecStart=/home/parmicciano/mstclient/amd64_linux -apikey INSERT_YOUR_APIKEY -ram 12000 -vcpus 8 -storage 250 -mode all -nodename Oasis 
+WorkingDirectory=/home/parmicciano/mstclient
+Restart=always
+RestartSec=5
+StandardOutput=syslog
+StandardError=syslog
+SyslogIdentifier=%n
+[Install]
+WantedBy=multi-user.target
+  ```
+
+</code-block>
+Replace "/home/parmicciano/" with the appropriate path
+This will create a node with 8 vcpus, 12000 mb of ram, 250Gb. Don't Forget the api key ! <br><br>
 <br>
-Create a new screen :
+Start the service
 <code-block active>
 
   ```bash
-screen -S masternetwork
+systemctl start mst
   ```
 
-Run the script
+And automatically get it to start on boot
 <code-block active>
 
   ```bash
-cd ~/mstclient && sudo git pull && sudo ./amd64_linux -apikey MYKEYFROMmasternetwork.api -ram 8000 -vcpus 2 -storage 85 -name Sunlight
+systemctl enable mst 
   ```
 
 </code-block>
-You can now leave this window (ctrl + ])
-This will create a node with 8000 mb of ram, 2 vcpus allocated, 85 gb of storage.
+And check the status. 
+<code-block active>
+
+  ```bash
+systemctl status mst
+  ```
+
+</code-block>
+
+
 <alert>
-It's a beta, many bugs can exist
+It's a beta, many bugs can exist. Contact us on discord for reporting bugs ! 
 </alert>
 
 
 ## Let's go
-Your node is now running, just wait.
+Your node is now running ! Congratulations !
