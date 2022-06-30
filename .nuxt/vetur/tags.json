@@ -1,4 +1,22 @@
 {
+  "Alert": {
+    "description": "Auto imported from components/global/base/Alert.vue"
+  },
+  "Badge": {
+    "description": "Auto imported from components/global/base/Badge.vue"
+  },
+  "CodeBlock": {
+    "description": "Auto imported from components/global/base/CodeBlock.vue"
+  },
+  "CodeGroup": {
+    "description": "Auto imported from components/global/base/CodeGroup.vue"
+  },
+  "CodeSandbox": {
+    "description": "Auto imported from components/global/base/CodeSandbox.vue"
+  },
+  "List": {
+    "description": "Auto imported from components/global/base/List.vue"
+  },
   "AppColorSwitcher": {
     "description": "Auto imported from components/global/app/AppColorSwitcher.vue"
   },
@@ -64,24 +82,6 @@
   },
   "IconXCircle": {
     "description": "Auto imported from components/global/icons/IconXCircle.vue"
-  },
-  "Alert": {
-    "description": "Auto imported from components/global/base/Alert.vue"
-  },
-  "Badge": {
-    "description": "Auto imported from components/global/base/Badge.vue"
-  },
-  "CodeBlock": {
-    "description": "Auto imported from components/global/base/CodeBlock.vue"
-  },
-  "CodeGroup": {
-    "description": "Auto imported from components/global/base/CodeGroup.vue"
-  },
-  "CodeSandbox": {
-    "description": "Auto imported from components/global/base/CodeSandbox.vue"
-  },
-  "List": {
-    "description": "Auto imported from components/global/base/List.vue"
   },
   "AppCopyButton": {
     "description": "Auto imported from components/app/AppCopyButton.vue"

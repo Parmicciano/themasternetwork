@@ -1,7 +1,7 @@
 ---
 title: Installation
-description: 'Create a node'
-category: Node
+description: 'Create a masternode'
+category: masternode
 position: 3
 ---
 
@@ -13,7 +13,7 @@ In order to download the client, you must install git and cron if those packages
   sudo apt install git -y && sudo apt install cron -y && sudo apt install nano -y && sudo apt-get install screen
   ```
 
-You must be under<b> ubuntu / debian</b> in order to start a node.
+You must be under<b> ubuntu / debian</b> in order to start a masternode.
 
 Replace "parmicciano" with your username
   <code-block active>
@@ -24,9 +24,9 @@ Replace "parmicciano" with your username
   ```
 
 
-Start the node
+Start the masternode
 -----------------------------------------------
-Run this command to start a node.<br>
+Run this command to start a masternode.<br>
 
 Don't forget the apikey, you will find it by creating an <a href="https://masternetwork.dev">account</a>. Specify different options in the crontab to limit the resources you want to allocate for the virtual machines. Otherwirse you will not be paid.   
 
@@ -94,4 +94,4 @@ It's a beta, many bugs can exist. Contact us on discord for reporting bugs !
 
 
 ## Let's go
-Your node is now running ! Congratulations !
+Your masternode is now running ! Congratulations !
