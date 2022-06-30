@@ -89,7 +89,7 @@ systemctl status mst
 
 
 <alert>
-It's a beta, many bugs can exist. Contact us on discord for reporting bugs ! 
+It's a beta, many bugs can exist. Contact us on <a href="https://discord.com/invite/NVvvkXMbAB">discord</a> for reporting bugs ! 
 </alert>
 
 

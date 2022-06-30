@@ -3,18 +3,21 @@
     "name": "releases___en",
     "path": "/releases",
     "component": "C:\\\\Users\\\\thoma\\\\Documents\\\\remote python\\\\docs\\\\node_modules\\\\@nuxt\\\\content-theme-doc\\\\src\\\\pages\\\\releases.vue",
-    "chunkName": "pages/releases"
+    "chunkName": "pages/releases",
+    "_name": "_317794d8"
   },
   {
     "name": "index___en",
     "path": "/",
     "component": "C:\\\\Users\\\\thoma\\\\Documents\\\\remote python\\\\docs\\\\node_modules\\\\@nuxt\\\\content-theme-doc\\\\src\\\\pages\\\\_.vue",
-    "chunkName": "pages/_"
+    "chunkName": "pages/_",
+    "_name": "_2741f1fa"
   },
   {
     "name": "all___en",
     "path": "/*",
     "component": "C:\\\\Users\\\\thoma\\\\Documents\\\\remote python\\\\docs\\\\node_modules\\\\@nuxt\\\\content-theme-doc\\\\src\\\\pages\\\\_.vue",
-    "chunkName": "pages/_"
+    "chunkName": "pages/_",
+    "_name": "_2741f1fa"
   }
 ]

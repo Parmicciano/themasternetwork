@@ -20,7 +20,7 @@ In order to fill your account with monero, you have to send monero to one of our
 We would like, later, to add many others crypto currencies such as solana, bitcoin, ethereum.
 We take a 30% commission between the node and the users.
 Need help ?
-We will be happy to help you on our discord
+We will be happy to help you on our <a href="https://discord.com/invite/NVvvkXMbAB">discord</a>
 
 ## And ...
 The user interface is open source on github, feel free to improve it. All the actions you perform in the interface are available to be used directly with your api key @ api.masternetwork.dev
