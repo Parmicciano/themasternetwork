@@ -1,0 +1,11 @@
+{
+  "title": "The masternetwork",
+  "url": "",
+  "logo": {
+    "light": "/logo-light.png",
+    "dark": "/logo-dark.png"
+  },
+  "github": "Parmicciano/masternetwork-webv",
+  "twitter": "Parmicciano",
+  "defaultBranch": "main"
+}

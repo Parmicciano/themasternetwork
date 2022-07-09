@@ -1,0 +1,23 @@
+[
+  {
+    "name": "releases___en",
+    "path": "/releases",
+    "component": "C:\\\\Users\\\\thoma\\\\Documents\\\\remote python\\\\docs\\\\docs\\\\node_modules\\\\@nuxt\\\\content-theme-docs\\\\src\\\\pages\\\\releases.vue",
+    "chunkName": "pages/releases",
+    "_name": "_a34747f0"
+  },
+  {
+    "name": "index___en",
+    "path": "/",
+    "component": "C:\\\\Users\\\\thoma\\\\Documents\\\\remote python\\\\docs\\\\docs\\\\node_modules\\\\@nuxt\\\\content-theme-docs\\\\src\\\\pages\\\\_.vue",
+    "chunkName": "pages/_",
+    "_name": "_6772145a"
+  },
+  {
+    "name": "all___en",
+    "path": "/*",
+    "component": "C:\\\\Users\\\\thoma\\\\Documents\\\\remote python\\\\docs\\\\docs\\\\node_modules\\\\@nuxt\\\\content-theme-docs\\\\src\\\\pages\\\\_.vue",
+    "chunkName": "pages/_",
+    "_name": "_6772145a"
+  }
+]
