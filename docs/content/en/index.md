@@ -5,8 +5,8 @@ position: 1
 category: Getting started
 ---
 
-## What is the masternetwork ?
-The masternetwork is a platform that connects computing power with developers in exchange for cryptocurrency.
+## What is the <a href="https://masternetwork.dev">masternetwork</a> ?
+The <a href="https://masternetwork.dev">masternetwork</a> is a platform that connects computing power with developers in exchange for cryptocurrency.
 If you do not use a server supporting virtualization, a rasberry pi, you can make it available to the platform.
 Thus, depending on the demand, your server will be able to run virtual machines for others and you will receive cryptocurrencies according to the computing power used
 How to start a virtual machine ?

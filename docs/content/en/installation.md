@@ -87,7 +87,7 @@ systemctl status mst
 
 </code-block>
 
-You can find the source code <a href="https://github.com/Masternetworks/masternetwork_vps">here</a> and compile it from source if you wants to. 
+You can find the source code <a href="https://github.com/Master-Network/mast_client">here</a> and compile it from source if you wants to. 
 <alert>
 It's a beta, many bugs can exist. Contact us on <a href="https://discord.com/invite/NVvvkXMbAB">discord</a> for reporting bugs ! 
 </alert>
