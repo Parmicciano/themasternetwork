@@ -60,4 +60,7 @@ You must enter the path to your certificate so that the reverse proxy can expose
 
 <img src="/mywebsitemst.png" alt="ubuntu welcome page ! ">
 Wait a bit for the configuration to update (a few seconds or minutes at most). 
-Congratulations, you have exposed your site with your ssl certificate!
+Congratulations, you have exposed your site with your ssl certificate!<br><br>
+However, the certificate you just set up expires every 90 days. So we can renew it every 90 days to secure our site permanently. This is a bit complex to do since we have to access the dns zone of our domains and modify them periodically (every 90 days).<br>
+Fortunately, the domain name registrars have foreseen this and have developed apis. There are many examples and scripts that allow you to edit your dns zone automatically in order to renew your certificate before the old one expires. For aws and godaddy, you can use this <a href="https://chariotsolutions.com/blog/post/automating-lets-encrypt-certificate-renewal-using-dns-challenge-type/"> script</a>.  <br><br>
+If your domain name registrar is less known, like porkbun for example and there is not already a script ready to use, then you will have to do it manually but you will surely spend a good time to understand how apis works to edit the dns zones of your domain name.
