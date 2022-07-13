@@ -15,7 +15,9 @@ Apache2 is a very easy to install and configure web server. You can simply insta
 sudo apt update && sudo apt install apache2 -y
   ```
 </code-block>
-  
+  You must expose your site on port 80 and the reverse proxy will expose it on port 443 and thus with an ssl certificate. In our example, we installed apache2, it's very simple to host basic sites (html/css/js) but you can also host dynamic sites like with php. It can be very convenient to host apis that you can then call with javascript (for example with the axios module for reactjs and nuxtjs) and thus dissociate the frontend site from the backend.
+
+
 ## Create an ssl certificate now
 In order for the connections between your users and your server to be secure, your connections must be encrypted with an ssl certificate. 
 <br>
