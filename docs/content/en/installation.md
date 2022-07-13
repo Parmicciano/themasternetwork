@@ -6,11 +6,11 @@ position: 3
 ---
 
 ## Install the client 
-In order to download the client, you must install git and cron if those packages are not already installed
+In order to download the client, you must install git and cron if those packages are not already installed. Ulimit is needed to open more file, otherwise the program stops and crash.
   <code-block active>
 
   ```bash
-  sudo apt install git -y && sudo apt install cron -y && sudo apt install nano -y && sudo apt-get install screen
+  sudo apt install git -y && sudo apt install cron -y && sudo apt install nano -y && sudo apt-get install screen && ulimit -n 65000
   ```
 
 You must be under<b> ubuntu / debian</b> in order to start a masternode.
