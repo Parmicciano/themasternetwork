@@ -76,7 +76,7 @@ python3 server.py
 In order for the connections between your users and your server to be secure, your connections must be encrypted with an ssl certificate. 
 <br>
 It is therefore necessary to generate an ssl certificate that is verified by an authority (allowing your certificate to be known).<br>
-So you need to use certbot and use dns validation. Indeed, as the servers you use on the masternetwork do not have a public ip, you have to use a dns validation. 
+So you need to use certbot and use dns validation. Indeed, as the servers you use on the <a href="https://masternetwork.dev">masternetwork</a> do not have a public ip, you have to use a dns validation. 
 <code-block active>
 
   ```bash
@@ -110,7 +110,7 @@ Then, edit your dns, this will allow certbot to make sure that you are the owner
 <img src="/dnsrecords.png" alt="porkbun dns zone for ssl certification ssl https">
 Wait a few minutes for the dns propagation to take place. Then press enter. <br>
 That's it! You have created your certificate approved by an authority. 
-Then, you have to tell the reverse proxy your site and the location of your certificates.
+Then, you have to tell the reverse proxy of the <a href="https://masternetwork.dev">masternetwork</a>your site and the location of your certificates.
 <img src="/newhttpswebsite.png" alt="website with ssl masternetwork certificate">
 You must enter the path to your certificate so that the reverse proxy can expose your site with the certificate (attention, your site must be exposed to port 80 and not 443)
 <br>
@@ -124,4 +124,4 @@ If your domain name registrar is less known, like porkbun for example and there 
 ## Conclusion
 
 You can now use your api to ensure the backend of your applications. You can indeed use the api to make communicate a database (sql, mongodb) and a javascript site (different frameworks exist like nuxtjs, reactjs, angular). <br><br>
-You can indeed customize actions like giving rights to users like the right to write content, the right to delete content which allows you to manage your site very easily. Don't forget to save your api periodically on github in case your server would have a problem or in case you would need to take a bigger server if your site is very successful (and we wish you that!)
+You can indeed customize actions like giving rights to users like the right to write content, the right to delete content which allows you to manage your site very easily. Don't forget to save your api periodically on github in case your server would have a problem or in case you would need to take a bigger server if your site is very successful (and we wish you that!). We wish you a great adventure on the <a href="https://masternetwork.dev">masternetwork</a>!
