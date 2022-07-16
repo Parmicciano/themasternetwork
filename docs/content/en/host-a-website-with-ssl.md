@@ -1,7 +1,7 @@
 ---
 title: How to host my website with ssl?
 description: Host your https website in a few minutes with the masternetwork
-category: Developper
+category: Developper Tutorials
 position: 3
 ---
 

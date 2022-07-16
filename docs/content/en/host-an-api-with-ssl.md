@@ -1,7 +1,7 @@
 ---
 title: How to host my api with an ssl certificate?
 description: Host your api on the masternetwork
-category: Developper
+category: Developper Tutorials
 position: 5
 ---
 
